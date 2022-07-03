@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+body{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    margin: 0 20px;
+}
+.links img{
+    width: 180px;
+}
+.sig{
+    margin: 0 15px;
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 1.3rem;
+}
+.Join{
+    margin: 0 15px;
+    background-color: black;
+    border: white 2px solid;
+    padding: 8px 15px;
+    border-radius: 1.4rem;
+    color: white;
+}
+.data{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data .text{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    line-height: 50px;
+    font-size: 28px;
+    margin-right: 26px; 
+}
+.txt{
+    line-height: 40px;
+}
+.txt h1{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+span{
+    color: red;
+}
+.txt h1::before{
+    content: 'MR. ROBOT';
+    position: absolute;
+    left: 0;
+    top: -30px;
+    text-transform: uppercase;
+    font-size: 80px;
+    opacity: 0.1;
+}
+button{
+    background-color: red;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 0.8rem;
+}
+.image img{
+    width: 485px;
+}
